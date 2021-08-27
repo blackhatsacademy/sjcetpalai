@@ -4,8 +4,6 @@
 ```
 All requirements and notes are available there
 ```
-# I've joined the #100DaysOfCode Challenge
-
 ## Contents
 
 * [notes](note.md)
