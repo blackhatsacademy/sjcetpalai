@@ -8,7 +8,7 @@ All requirements and notes are available there
 
 * [notes](note.md)
 * [To be Download](download.md)
-* [videos](pdf.md)
+* [videos](https://github.com/blackhatsacademy/sjcetpalai/tree/main/videos)
 
 <a href="" /></a>
 
