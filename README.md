@@ -6,9 +6,9 @@ All requirements and notes are available there
 ```
 ## Contents
 
-* [notes](note.md)
-* [To be Download](download.md)
+* [notes](https://github.com/blackhatsacademy/sjcetpalai/tree/main/note)
 * [videos](https://github.com/blackhatsacademy/sjcetpalai/tree/main/videos)
+* [To be Download](https://github.com/blackhatsacademy/sjcetpalai/tree/main/download)
 
 <a href="" /></a>
 
