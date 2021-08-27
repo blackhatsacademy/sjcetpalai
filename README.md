@@ -1,11 +1,10 @@
 
 ## CEH Workshop - IEEE SB ,St. Joseph’s College of Engineering
+![ezgif com-gif-maker(1)](https://user-images.githubusercontent.com/86956564/131185855-0e8b0b7a-db98-4d43-9617-7e53aa8a66d8.gif)
 
-```
-All requirements and notes are available there
-```
-<a href=""><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif"></a>
-## Contents
+* All requirements and notes are available there
+<a href=""><img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="2px"></a>
+### Contents
 
 * [notes](https://github.com/blackhatsacademy/sjcetpalai/tree/main/note)
 * [videos](https://github.com/blackhatsacademy/sjcetpalai/tree/main/videos)
