@@ -73,9 +73,9 @@
           “echo hello, my name is alok >> new.txt”. You do not need to separate the spaces by using the backward slash here,
           because we put in two triangular brackets when we finish what we need to write.
 
-                   ```
+                  
                    “echo hello, my name is alok >> new.txt”.
-                   ```
+                   
 
 * 2. cat — Use the cat command to display the contents of a file. It is usually used to easily view programs.
                 
