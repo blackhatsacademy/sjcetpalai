@@ -28,7 +28,7 @@
                    Remember, as told before, if you want to create a directory named “DIY Hacking”, then you can type “mkdir DIY\ Hacking”.
                    Use rmdir to delete a directory. But rmdir can only be used to delete an empty directory. To delete a directory containing files, use rm.
                    
-                   ![](https://maker.pro/storage/fZHiKDk/fZHiKDkI6X950pnqyFDNLUuVvXnCGE3W2LqLjN3w.png)
+        ![](https://maker.pro/storage/fZHiKDk/fZHiKDkI6X950pnqyFDNLUuVvXnCGE3W2LqLjN3w.png)
 
 * 5. rm - Use the rm command to delete files and directories.  Use "rm -r" to delete just the directory.
         It deletes both the folder and the files it contains when using only the rm command.
@@ -38,13 +38,13 @@
 * 6. touch —  The touch command is used to create a file. It can be anything, from an empty txt file to an empty zip file.
             For example, “touch new.txt”.
             
-            ![](https://maker.pro/storage/xQ2pP99/xQ2pP99oGhjN1fisLfllUSp3BYFne9Gt1hdBAvMX.png)
+        ![](https://maker.pro/storage/xQ2pP99/xQ2pP99oGhjN1fisLfllUSp3BYFne9Gt1hdBAvMX.png)
 
 * 7. man & --help — To know more about a command and how to use it, use the man command.
                    It shows the manual pages of the command. For example, “man cd” shows the manual pages of the cd command.
                    Typing in the command name and the argument helps it show which ways the command can be used (e.g., cd –help).
                    
-                   ![](https://maker.pro/storage/Qxqv1yX/Qxqv1yXm9DdmwS11frqfVthgmSvGCBTwjf7YQ4kw.png)
+        ![](https://maker.pro/storage/Qxqv1yX/Qxqv1yXm9DdmwS11frqfVthgmSvGCBTwjf7YQ4kw.png)
 
 * 8. cp — Use the cp command to copy files through the command line. It takes two arguments: The first is the location of the file to be copied
         the second is where to copy.
@@ -63,7 +63,7 @@
               the word "hello" when you type in “locate -i hello”. If you remember two words, you can separate them using an asterisk (*). For example
               to locate a file containing the words "hello" and "this", you can use the command “locate -i *hello*this”.
               
-              ![](https://maker.pro/storage/OLS3n8S/OLS3n8S30SLUxjlxdmIhd0bHnTc2q12Cy0gudkcU.png)
+        ![](https://maker.pro/storage/OLS3n8S/OLS3n8S30SLUxjlxdmIhd0bHnTc2q12Cy0gudkcU.png)
               
 
 ## Intermediate Commands
@@ -79,7 +79,7 @@
 
 * 2. cat — Use the cat command to display the contents of a file. It is usually used to easily view programs.
                 
-                ![](https://maker.pro/storage/gVDvnvr/gVDvnvrg4mkmFfoOwfKi5S5QaOo6g71LfokySbUf.png)
+        ![](https://maker.pro/storage/gVDvnvr/gVDvnvrg4mkmFfoOwfKi5S5QaOo6g71LfokySbUf.png)
                 
 
 * 3. nano, vi, jed — nano and vi are already installed text editors in the Linux command line.
@@ -90,7 +90,7 @@
                    using nano for HTML editing doesn't seem as good, because of its color, so I recommend jed text editor.
                    We will come to installing packages soon.
                    
-                   ![](https://maker.pro/storage/6ILW5l3/6ILW5l3cJbunDa4PoZbp3xVLI1FLVCICfs5xCLVZ.png)
+        ![](https://maker.pro/storage/6ILW5l3/6ILW5l3cJbunDa4PoZbp3xVLI1FLVCICfs5xCLVZ.png)
                    
 
 * 4. sudo — A widely used command in the Linux command line, sudo stands for "SuperUser Do".
@@ -100,21 +100,21 @@
           then type in your user password. You can also use the command “su” to do this, but you need to set a root password before that.
           For that, you can use the command “sudo passwd”(not misspelled, it is passwd). Then type in the new root password.
           
-          ![](https://maker.pro/storage/x87NGMW/x87NGMWw1Cx4b9pqDueExq1BCGRep9qhHTtTIKbF.jpeg)
+        ![](https://maker.pro/storage/x87NGMW/x87NGMWw1Cx4b9pqDueExq1BCGRep9qhHTtTIKbF.jpeg)
           
 
 * 5. df — Use the df command to see the available disk space in each of the partitions in your system.
           You can just type in df in the command line and you can see each mounted partition and their used/available space in % and in KBs.
           If you want it shown in megabytes, you can use the command “df -m”.
           
-          ![](https://maker.pro/storage/pWIgW4d/pWIgW4dtCD3Q4LGDzzL9zfZscTJRsiL3oXpstUn4.png)
+        ![](https://maker.pro/storage/pWIgW4d/pWIgW4dtCD3Q4LGDzzL9zfZscTJRsiL3oXpstUn4.png)
           
 
 * 6. du — Use du to know the disk usage of a file in your system. If you want to know the disk usage for a particular folder or file in Linux,
           you can type in the command df and the name of the folder or file. For example, if you want to know the disk space used by the documents folder in Linux,
           you can use the command “du Documents”. You can also use the command “ls -lah” to view the file sizes of all the files in a folder.
           
-          ![](https://maker.pro/storage/ShrGn4Z/ShrGn4Zdt1uUxAL8ZBEIBdJaB6IFem1fUNgZ9LAI.png)
+        ![](https://maker.pro/storage/ShrGn4Z/ShrGn4Zdt1uUxAL8ZBEIBdJaB6IFem1fUNgZ9LAI.png)
           
 
 * 7. tar —  Use tar to work with tarballs (or files compressed in a tarball archive) in the Linux command line.
@@ -127,7 +127,7 @@
 * 9. uname —   Use uname to show the information about the system your Linux distro is running.
             Using the command “uname -a” prints most of the information about the system. This prints the kernel release date, version, processor type, etc.
             
-            ![](https://maker.pro/storage/zYTWmQm/zYTWmQmaCRIQVP81pRAyGpsQMlODoWfAiBmhGGfx.png)
+        ![](https://maker.pro/storage/zYTWmQm/zYTWmQmaCRIQVP81pRAyGpsQMlODoWfAiBmhGGfx.png)
 
 * 10. apt-get — Use apt to work with packages in the Linux command line. Use apt-get to install packages.
               This requires root privileges, so use the sudo command with it. For example, if you want to install
@@ -137,7 +137,7 @@
               We can also upgrade the distro by typing “sudo apt-get dist-upgrade”. The command “apt-cache search” is used to search for a package.
               If you want to search for one, you can type in “apt-cache search jed”(this doesn't require root).
               
-              ![](https://maker.pro/storage/kRl3J9p/kRl3J9prsTdwSLbn0a3Ib0PQ5bO2fQRXZN7Aqs4B.png)
+        ![](https://maker.pro/storage/kRl3J9p/kRl3J9prsTdwSLbn0a3Ib0PQ5bO2fQRXZN7Aqs4B.png)
 
 * 11. chmod — Use chmod to make a file executable and to change the permissions granted to it in Linux.
             Imagine you have a python code named numbers.py in your computer. You'll need to run “python numbers.py” every time you need to run it.
@@ -146,13 +146,13 @@
             You can use “chmod 755 numbers.py” to give it root permissions or “sudo chmod +x numbers.py” for root executable.
             Here is some more information about the chmod command.
             
-            ![](https://maker.pro/storage/x6kPLV1/x6kPLV1X082T8Ndad9HXUcoUTfHqh3ZwdJeNMOWN.png)
+        ![](https://maker.pro/storage/x6kPLV1/x6kPLV1X082T8Ndad9HXUcoUTfHqh3ZwdJeNMOWN.png)
             
 
 * 12. hostname — Use hostname to know your name in your host or network. Basically, it displays your hostname and IP address.
                Just typing “hostname” gives the output. Typing in “hostname -I” gives you your IP address in your network.
                
-               ![](https://maker.pro/storage/rYXwfkj/rYXwfkjzSMxuSpV8CeNvMze4kqJNIpw1QVcOT6eY.png)
+        ![](https://maker.pro/storage/rYXwfkj/rYXwfkjzSMxuSpV8CeNvMze4kqJNIpw1QVcOT6eY.png)
                
 
 * 13. ping — Use ping to check your connection to a server. Wikipedia says, "Ping is a computer network administration software utility
@@ -161,7 +161,7 @@
            it. The use of this command for simple users like us is to check your internet connection. If it pings the Google server (in this case),
            you can confirm that your internet connection is active!
            
-           ![](https://maker.pro/storage/bTyR2iO/bTyR2iOeEwWRqxaKg5KR00sANOT3M8VlKAzkiprJ.png)
+        ![](https://maker.pro/storage/bTyR2iO/bTyR2iOeEwWRqxaKg5KR00sANOT3M8VlKAzkiprJ.png)
 
 
 #### home=> [sjcetpalai](https://github.com/blackhatsacademy/sjcetpalai)
