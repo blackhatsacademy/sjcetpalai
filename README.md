@@ -14,6 +14,13 @@
   * Item 2b
 > will be updated
 
+## Disclaimer:
+>This course is created for educational purposes only, all the attacks are launched in our own lab or against online Lab systems
+>that are legally permitted to run tests against >them.This course is totally a product of the two instructors of this course
+>and no other organization is associated with it. Although, you will receive a Course Completion >Certification from Udemy,
+>apart from that NO OTHER ORGANISATION IS INVOLVED
+    
+
 - [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
 - [ ] this is an incomplete item
 
